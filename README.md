@@ -1,8 +1,14 @@
-# mammel_et_al_2021
+# Micronuclei lamina analysis (Mammel et al. 2021)
+
+## MANUSCRIPT
+
+Chromosome length and gene density contribute to micronuclear membrane stability
+Anna E Mammel, Heather Z Huang, Amanda L Gunn, Emma Choo, Emily M Hatch
+BioRxiv Preprint: https://www.biorxiv.org/content/10.1101/2021.05.12.443914v1
 
 ## SUMMARY
 
-This repository contains MATLAB functions designed to segment the lamin network of micronuclei and to identify holes in the lamin mesh. It has been optimized for image datasets acquired on a Leica SP8 instrument equipped with a STED module. The image stack has 5 different channels. The main function `LaminDetector` segments the lamin network of micronuclei using the AROS algorithm developped by Mark Kittisopikul and colleagues to identify holes in the mesh from 3D image datasets acquired with super res STED technique.
+This repository contains MATLAB functions designed to segment the lamin network of micronuclei and to identify gaps in the lamin mesh. It has been optimized for image datasets acquired on a Leica SP8 instrument equipped with a STED module. The image stack has 5 different channels. The main function `LaminDetector` segments the lamin network of micronuclei using the AROS algorithm developped by Mark Kittisopikul and colleagues to identify gaps in the mesh from 3D image datasets acquired with super res STED technique.
 
 1. After image import, a montage of all markers is created to help identify the micronucleus of interest.
 2. A new interactive figure pops up for cropping the image stack down to the region of interest.
