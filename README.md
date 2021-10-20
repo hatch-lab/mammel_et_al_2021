@@ -3,7 +3,9 @@
 ## MANUSCRIPT
 
 Chromosome length and gene density contribute to micronuclear membrane stability
+
 Anna E Mammel, Heather Z Huang, Amanda L Gunn, Emma Choo, Emily M Hatch
+
 BioRxiv Preprint: https://www.biorxiv.org/content/10.1101/2021.05.12.443914v1
 
 ## SUMMARY
